@@ -50,7 +50,7 @@ app.get('/app/rpsls/play/:arg', (req, res) => {
 	res.status(200).send(rpsls(req.params.arg));
 })
 
-app.get('*', (res) => {
+app.get('*', (req, res) => {
 	res.status(404).send('404 NOT FOUND');
 })
 
