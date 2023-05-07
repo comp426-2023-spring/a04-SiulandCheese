@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import express from 'express';
 import minimist from 'minimist';
-import {rps, rpsls} from "lib/rpsls.js"
+import {rps, rpsls} from "/lib/rpsls.js"
 
 var args = minimist(process.argv.slice(2)); // Get arguments 
 
